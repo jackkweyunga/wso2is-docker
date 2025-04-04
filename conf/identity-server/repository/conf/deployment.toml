@@ -1,10 +1,5 @@
 [server]
 hostname = "localhost"
-node_ip = "127.0.0.1"
-
-[transport.https.properties]
-proxyPort = 443
-port = 443
 
 [super_admin]
 username = "admin"
