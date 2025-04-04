@@ -25,6 +25,8 @@ services:
     build:
       dockerfile: ./Dockerfile
       context: .
+      platforms:
+        - linux/arm64/v8
     expose:
       - "9763:9763"
       - "9443:9443"
